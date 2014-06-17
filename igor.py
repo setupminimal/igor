@@ -170,7 +170,7 @@ def evil(exp):
 
 if __name__ == '__main__':
     print("Bootstrap Igor")
-    evil(parse_sexp('(eval (str->code (slurp "/home/daroc/systemLibrary.ig")))'))
+    evil(parse_sexp('(eval (str->code (slurp "/home/carl/systemLibrary.ig")))'))
     print("Loaded System Library")
     while True:
         x = input(":] ")
